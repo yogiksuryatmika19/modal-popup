@@ -8,3 +8,7 @@ function openModal() {
     modal.classList.add("show");
 }
 
+// function closeModal
+function closeModal() {
+    modal.classList.remove("show");
+}
