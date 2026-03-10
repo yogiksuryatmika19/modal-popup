@@ -2,3 +2,9 @@
 const modal = document.getElementById("modal");
 const openBtn = document.getElementById("openBtn");
 const closeBtn = document.getElementById("closeBtn");
+
+//function openModal
+function openModal() {
+    modal.classList.add("show");
+}
+
