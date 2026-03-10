@@ -1,6 +1,6 @@
 /* styling container overlay */
 .modal-overlay {
-    display: none;
+    display: none; /* tidak ditampilkan diawal */
     position: fixed;
     left: 0;
     top: 0;
@@ -8,3 +8,21 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* menmpilkan modal */
+.modal-overlay.show {
+    display: block;
+}
+
+/* styling modal box yaitu child dari modal container */
+.modal-box {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
