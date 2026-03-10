@@ -25,4 +25,13 @@
     position: relative;
 }
 
-
+/* modal close */
+.modal-close {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
